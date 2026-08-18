@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Dhanisha — BCA student exploring web development, Java, databases and cybersecurity.">
+    <meta name="theme-color" content="#f7f8fc">
+    <meta property="og:title" content="Dhanisha | Portfolio">
+    <meta property="og:description" content="Projects, skills and learning journey of Dhanisha, a BCA student and aspiring developer.">
+    <meta property="og:type" content="website">
+    <title>Dhanisha | Portfolio</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="#home"><span class="brand-mark">D</span><span>Divo<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="siteNav"><span></span><span></span></button>
+      <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#education">Journey</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch theme" aria-pressed="false"><span id="themeIcon">☾</span></button>
+        <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="availability"><span></span> Available to learn, build & collaborate</div>
+          <p class="intro">Hello, I’m</p>
+          <h1 class="hero-name">Dhanisha<span>.<span class="wave">👋</span></span></h1>
+          <h2 class="hero-title">I build <span>clean digital experiences</span> and keep learning what’s next.</h2>
+          <p class="hero-text">BCA student exploring web development, Java, databases and cybersecurity — with a focus on practical projects, thoughtful interfaces and continuous improvement.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View my projects <span>↗</span></a>
+            <a class="btn secondary" href="#about">More about me</a>
+          </div>
+          <div class="quick-facts">
+            <span><b>BCA</b> Kannur University</span>
+            <span><b>Focus</b> Web + Security</span>
+            <span><b>Mindset</b> Learn → Build → Improve</span>
+          </div>
+        </div>
+        <div class="hero-panel reveal">
+          <div class="profile-orbit">
+            <div class="avatar">D</div>
+            <span class="orbit-chip chip-one">HTML</span>
+            <span class="orbit-chip chip-two">Java</span>
+            <span class="orbit-chip chip-three">DBMS</span>
+            <span class="orbit-chip chip-four">Security</span>
+          </div>
+          <div class="panel-note">
+            <span class="note-icon">✦</span>
+            <div><small>CURRENTLY EXPLORING</small><strong>Better front-end experiences & cybersecurity fundamentals.</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="section-kicker">ABOUT ME</p><h2>Curious mind.<br><span>Practical approach.</span></h2></div>
+          <p>I enjoy understanding how things work and then turning that understanding into something useful. My learning spans programming, interfaces, databases, networking and security.</p>
+        </div>
+        <div class="about-layout">
+          <article class="story-card reveal">
+            <p class="big-quote">“I learn best when I can build something with what I just learned.”</p>
+            <p>I’m a BCA student developing a strong foundation in software and web technologies. Rather than filling this portfolio with random demos, I want each project to represent a concept I actually practiced and understood.</p>
+            <div class="interest-list"><span>Problem solving</span><span>Responsive UI</span><span>Java & OOP</span><span>Databases</span><span>Cybersecurity</span></div>
+          </article>
+          <div class="metric-list reveal">
+            <div class="metric"><strong>10+</strong><span>Practice builds & academic projects</span></div>
+            <div class="metric"><strong>5+</strong><span>Core technology areas explored</span></div>
+            <div class="metric"><strong>∞</strong><span>Room to learn and improve</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="section-kicker">SKILLS</p><h2>What I’m <span>working with.</span></h2></div>
+          <p>My current toolkit is growing across front-end development, programming, databases and security fundamentals.</p>
+        </div>
+        <div class="skill-grid">
+          <article class="skill reveal"><div class="skill-symbol">H</div><div><h3>HTML</h3><p>Semantic and accessible page structure.</p></div><span>90%</span><div class="skill-track"><i data-level="90"></i></div></article>
+          <article class="skill reveal"><div class="skill-symbol">C</div><div><h3>CSS</h3><p>Responsive layouts and polished interfaces.</p></div><span>85%</span><div class="skill-track"><i data-level="85"></i></div></article>
+          <article class="skill reveal"><div class="skill-symbol">JS</div><div><h3>JavaScript</h3><p>DOM interactions and front-end behaviour.</p></div><span>75%</span><div class="skill-track"><i data-level="75"></i></div></article>
+          <article class="skill reveal"><div class="skill-symbol">J</div><div><h3>Java</h3><p>Object-oriented programming fundamentals.</p></div><span>70%</span><div class="skill-track"><i data-level="70"></i></div></article>
+          <article class="skill reveal"><div class="skill-symbol">DB</div><div><h3>DBMS</h3><p>Database design, SQL and data concepts.</p></div><span>75%</span><div class="skill-track"><i data-level="75"></i></div></article>
+          <article class="skill reveal"><div class="skill-symbol">S</div><div><h3>Cybersecurity</h3><p>Networking, Linux and security fundamentals.</p></div><span>65%</span><div class="skill-track"><i data-level="65"></i></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="section-kicker">PROJECTS</p><h2>Things I’ve <span>built & explored.</span></h2></div>
+          <p>A selection of projects that helped me practice software logic, responsive UI and technical concepts.</p>
+        </div>
+        <div class="project-tools reveal">
+          <div class="filters" role="group" aria-label="Project filters">
+            <button class="filter active" data-filter="all">All</button><button class="filter" data-filter="web">Web</button><button class="filter" data-filter="java">Java</button><button class="filter" data-filter="security">Security</button>
+          </div>
+          <label class="search-box"><span>⌕</span><input id="projectSearch" type="search" placeholder="Search projects" aria-label="Search projects"></label>
+        </div>
+        <div class="project-grid" id="projectGrid">
+          <article class="project-card reveal" data-category="java" data-title="Supermarket Inventory System"><div class="project-top"><span class="project-type">JAVA • OOP</span><span>01</span></div><div class="project-visual visual-one"><span>Inventory<br>System</span></div><div class="project-body"><h3>Supermarket Inventory System</h3><p>A practical system concept for products, inventory, suppliers, billing and everyday business operations.</p><button class="project-link">Explore project <span>↗</span></button></div></article>
+          <article class="project-card reveal" data-category="web" data-title="NovaHub Interactive UI"><div class="project-top"><span class="project-type">WEB • UI</span><span>02</span></div><div class="project-visual visual-two"><span>Nova<br>Hub</span></div><div class="project-body"><h3>NovaHub Interactive UI</h3><p>A responsive interface featuring navigation, filtering, reusable components, modals and polished interactions.</p><button class="project-link">Explore project <span>↗</span></button></div></article>
+          <article class="project-card reveal" data-category="web" data-title="Travel Gallery"><div class="project-top"><span class="project-type">WEB • RESPONSIVE</span><span>03</span></div><div class="project-visual visual-three"><span>Travel<br>Gallery</span></div><div class="project-body"><h3>Travel Gallery</h3><p>A visual gallery project focused on responsive layout, hierarchy, cards and interactive controls.</p><button class="project-link">Explore project <span>↗</span></button></div></article>
+          <article class="project-card reveal" data-category="security" data-title="Cybersecurity Learning Lab"><div class="project-top"><span class="project-type">SECURITY • LINUX</span><span>04</span></div><div class="project-visual visual-four"><span>Cyber<br>Lab</span></div><div class="project-body"><h3>Cybersecurity Learning Lab</h3><p>A learning project covering security fundamentals, Linux, networking, common threats and defensive thinking.</p><button class="project-link">Explore project <span>↗</span></button></div></article>
+        </div>
+        <p class="empty-state" id="emptyState" hidden>No projects found.</p>
+      </div>
+    </section>
+
+    <section class="section journey" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="section-kicker">JOURNEY</p><h2>Still learning.<br><span>Always moving forward.</span></h2></div>
+        </div>
+        <div class="journey-list">
+          <article class="journey-item reveal"><span class="journey-year">PRESENT</span><div><h3>Bachelor of Computer Applications</h3><p class="journey-place">Kannur University</p><p>Building foundations in programming, databases, networking, web technologies and modern computing.</p></div></article>
+          <article class="journey-item reveal"><span class="journey-year">ONGOING</span><div><h3>Web Development</h3><p class="journey-place">Independent practice</p><p>Creating responsive interfaces while improving HTML, CSS, JavaScript and UI/UX skills.</p></div></article>
+          <article class="journey-item reveal"><span class="journey-year">ONGOING</span><div><h3>Cybersecurity</h3><p class="journey-place">Learning & practice</p><p>Exploring Linux, networking, security fundamentals and ethical security concepts.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-shell">
+        <div class="contact-copy reveal"><p class="section-kicker">CONTACT</p><h2>Let’s build something <span>worth learning from.</span></h2><p>Have a project idea, internship opportunity or something interesting to discuss? Leave a message below.</p><div class="contact-badge"><span>●</span> Front-end demo — message sending is simulated for this portfolio</div></div>
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="field-row"><label>Full name<input id="name" name="name" type="text" placeholder="Your name" required><small class="field-error" id="nameError"></small></label><label>Email<input id="email" name="email" type="email" placeholder="you@example.com" required><small class="field-error" id="emailError"></small></label></div>
+          <label>Subject<input id="subject" name="subject" type="text" placeholder="What would you like to discuss?" required><small class="field-error" id="subjectError"></small></label>
+          <label>Message<textarea id="message" name="message" maxlength="500" rows="5" placeholder="Tell me a little about it..." required></textarea><div class="field-bottom"><small class="field-error" id="messageError"></small><small><span id="messageCount">0</span>/500</small></div></label>
+          <div class="form-actions"><button class="btn primary" type="submit">Send message <span>↗</span></button><button class="clear-btn" type="button" id="clearDraft">Clear</button></div><div class="contact-status-row">
+        <p class="form-status" id="formStatus" role="status"></p>
+        <button type="button" class="view-messages" id="viewMessages" hidden>View messages</button>
+      </div>
+  <div class="send-success" id="sendSuccess" hidden>
+    <div class="success-header">
+      <div>
+        <div class="success-title"><span class="success-icon">✓</span> Message sent successfully! 🎉</div>
+        <p>Your message has been added to your message history.</p>
+      </div>
+      <button type="button" class="success-close" id="closeSuccess" aria-label="Hide confirmation">Hide</button>
+    </div>
+  </div>
+
+  <div class="message-history" id="messageHistory" hidden>
+    <div class="history-header">
+      <div>
+        <p class="section-kicker">MESSAGE HISTORY</p>
+        <h3>Your messages</h3>
+        <p>All messages submitted from this browser are listed here.</p>
+      </div>
+      <div class="history-actions"><button type="button" class="delete-all-messages" id="deleteAllMessages">Delete all</button><button type="button" class="history-hide" id="hideMessages">Hide messages</button></div>
+    </div>
+    <div class="message-list" id="messageList"></div>
+  </div>
+  </div>
+
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark">D</span><span>Divo<span class="brand-dot">.</span></span></a>
+      <p>© <span id="year"></span> Dhanisha</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <div class="modal-icon" id="modalIcon">✦</div>
+      <div class="tags" id="modalTags"></div>
+      <h2 id="modalTitle">Project</h2>
+      <p id="modalDescription"></p>
+      <button class="btn primary" data-close-modal>Close</button>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+  </body>
+</html>
